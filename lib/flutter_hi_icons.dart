@@ -6,7 +6,7 @@ class HiIcons {
   HiIcons._();
 
   static const _kFontFam = 'HiIcons';
-  static const String? _kFontPkg = null;
+  static const String _kFontPkg = 'flutter_hi_icons';
 
   static const IconData align_left_light_outline = IconData(0xe800, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData align_right_light_outline = IconData(0xe801, fontFamily: _kFontFam, fontPackage: _kFontPkg);

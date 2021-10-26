@@ -24,4 +24,4 @@ flutter:
   fonts:
     - family: HiIcons
       fonts:
-      - asset: fonts/HiIcons.ttf
+      - asset: lib/fonts/HiIcons.ttf
