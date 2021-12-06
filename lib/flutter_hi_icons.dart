@@ -2,18 +2,31 @@ library flutter_hi_icons;
 
 import 'package:flutter/widgets.dart';
 
+/// Flutter icons HiIcons
+/// Copyright (C) 2021 by original authors @stevenosse
+///
+/// To use this font, place it in your fonts/ directory and include the
+/// following in your pubspec.yaml
+///
+/// flutter:
+///   fonts:
+///    - family:  HiIcons
+///      fonts:
+///       - asset: fonts/HiIcons.ttf
+///
+
 class HiIcons {
   HiIcons._();
 
-  static const _kFontFam = 'HiIcons';
+  static const String _kFontFam = 'HiIcons';
   static const String _kFontPkg = 'flutter_hi_icons';
 
-  static const IconData align_left_light_outline = IconData(0xe800, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData align_left_light_outline = const IconData(0xe800, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData align_right_light_outline = IconData(0xe801, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData arrow_down_2_1_light_outline = IconData(0xe802, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData arrow_down_2_light_outline = IconData(0xe803, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData arrow_down_circle_light_outline = IconData(0xe804, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData arrow_down_light_outline = IconData(0xe805, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrow_down__light_outline = IconData(0xe805, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData arrow_down_square_2_light_outline = IconData(0xe806, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData arrow_down_square_3_light_outline = IconData(0xe807, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData arrow_down_square_light_outline = IconData(0xe808, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -62,7 +75,6 @@ class HiIcons {
   static const IconData chat_light_outline = IconData(0xe833, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData checklist_light_outline = IconData(0xe834, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData clock_light_outline = IconData(0xe835, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData clock_bold = IconData(0xf017, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData close_square_light_outline = IconData(0xe836, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData cloud_lightning_light_outline = IconData(0xe837, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData cloud_exit_light_outline = IconData(0xe838, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -79,7 +91,6 @@ class HiIcons {
   static const IconData dollar_light_outline = IconData(0xe843, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData edit_2_light_outline = IconData(0xe844, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData edit_light_outline = IconData(0xe845, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData edit_square_light_outline = IconData(0xe846, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData eye_light_outline = IconData(0xe847, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData export_light_outline = IconData(0xe848, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData eye_slash_light_outline = IconData(0xe849, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -89,11 +100,12 @@ class HiIcons {
   static const IconData folder_light_outline = IconData(0xe84d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData game_light_outline = IconData(0xe84e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData filter_light_outline = IconData(0xe84f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData holidays_light_outline = IconData(0xe850, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData gps_2_light_outline = IconData(0xe851, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData graph_light_outline = IconData(0xe852, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData grid_light_outline = IconData(0xe853, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData heart_light_outline = IconData(0xe854, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData headphone_light_outline = IconData(0xe855, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData hedphone_light_outline = IconData(0xe855, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData home_2_light_outline = IconData(0xe856, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData home_light_outline = IconData(0xe857, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData image_2_light_outline = IconData(0xe858, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -117,8 +129,8 @@ class HiIcons {
   static const IconData menu_1_light_outline = IconData(0xe86a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData menu_light_outline = IconData(0xe86b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData message_light_outline = IconData(0xe86c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData microphone_1_light_outline = IconData(0xe86d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData microphone_2_light_outline = IconData(0xe86e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData microphon_1_light_outline = IconData(0xe86d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData microphon_2_light_outline = IconData(0xe86e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData mobile_light_outline = IconData(0xe86f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData monitor_light_outline = IconData(0xe870, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData more_light_outline = IconData(0xe871, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -134,11 +146,10 @@ class HiIcons {
   static const IconData note_plus_light_outline = IconData(0xe87b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData note_up_light_outline = IconData(0xe87c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData play_light_outline = IconData(0xe87d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData play_square_light_outline = IconData(0xe87e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData plus_light_outline = IconData(0xe87f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData profile_light_outline = IconData(0xe880, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData programming_light_outline = IconData(0xe881, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData pause_light_outline = IconData(0xe882, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData puse_light_outline = IconData(0xe882, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData question_light_outline = IconData(0xe883, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData received_light_outline = IconData(0xe884, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData reserve_light_outline = IconData(0xe885, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -152,10 +163,10 @@ class HiIcons {
   static const IconData settings_2_light_outline = IconData(0xe88d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData settings_light_outline = IconData(0xe88e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData shield_done_light_outline = IconData(0xe88f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData shield_failed_light_outline = IconData(0xe890, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shield_faild_light_outline = IconData(0xe890, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData shield_light_outline = IconData(0xe891, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData signal_light_outline = IconData(0xe892, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData speaker_light_outline = IconData(0xe893, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData speker_light_outline = IconData(0xe893, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData star_light_outline = IconData(0xe894, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData statistics_light_outline = IconData(0xe895, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData statistics_monitor_light_outline = IconData(0xe896, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -191,8 +202,8 @@ class HiIcons {
   static const IconData airpod_light_outline = IconData(0xe8b5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData align_center_light_outline = IconData(0xe8b6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData qr_workerly_io = IconData(0xe8b7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData vertical_bars_light_outline = IconData(0xe8b8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData lines_light_outline = IconData(0xe8b9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData shifts = IconData(0xe8b8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData leaves = IconData(0xe8b9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData turn_off_bold = IconData(0xe8ba, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData tv_bold = IconData(0xe8bb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData unlock_bold = IconData(0xe8bc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -211,14 +222,13 @@ class HiIcons {
   static const IconData user_3_bold = IconData(0xe8c9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData add_cart_bold = IconData(0xe8cb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData add_user_bold = IconData(0xe8cc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData add_1_bold = IconData(0xe8cd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData add_bold = IconData(0xe8ce, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData airpod_bold = IconData(0xe8cf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData align_center_bold = IconData(0xe8d0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData align_left_bold = IconData(0xe8d1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData align_right_bold = IconData(0xe8d2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData arrow_down_1_bold = IconData(0xe8d3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData arrow_down_2_1_bold = IconData(0xe8d4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrow_down_circle_bold = IconData(0xe8d5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData arrow_down_2_bold = IconData(0xe8d6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData arrow_left_1_bold = IconData(0xe8da, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData arrow_left_2_bold = IconData(0xe8db, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -229,6 +239,9 @@ class HiIcons {
   static const IconData arrow_up_1_1_bold = IconData(0xe8e8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData arrow_up_1_bold = IconData(0xe8e9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData arrow_up_3_bold = IconData(0xe8ea, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrow_up_circle_bold = IconData(0xe8eb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrow_up_square_3_bold = IconData(0xe8ed, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData arrow_up_square_bold = IconData(0xe8ee, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData award_bold = IconData(0xe8ef, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData back_track_2_bold = IconData(0xe8f0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData back_track_bold = IconData(0xe8f1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -261,6 +274,7 @@ class HiIcons {
   static const IconData danger_bold = IconData(0xe90e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData decrease_cart_bold = IconData(0xe90f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData discount_bold = IconData(0xe910, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData discount_square_bold = IconData(0xe911, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData document_bold = IconData(0xe913, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData dollar_bold = IconData(0xe914, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData edit_2_bold = IconData(0xe915, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -306,6 +320,8 @@ class HiIcons {
   static const IconData microphone_2_bold = IconData(0xe93f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData mobile_bold = IconData(0xe940, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData monitor_bold = IconData(0xe941, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData more_bold = IconData(0xe942, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData mouse_bold = IconData(0xe943, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData next_track_2_bold = IconData(0xe944, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData next_track_bold = IconData(0xe945, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData night_bold = IconData(0xe946, fontFamily: _kFontFam, fontPackage: _kFontPkg);
@@ -349,4 +365,5 @@ class HiIcons {
   static const IconData torch_bold = IconData(0xe96e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData trash_1_bold = IconData(0xe96f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData trash_2_bold = IconData(0xe970, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData clock = IconData(0xf017, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 }
