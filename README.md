@@ -22,6 +22,9 @@ IconButton(
 )
 ```
 
+## ⚠️ Warning
+Some icons might not be available in this package. We are working to make them available for you.
+
 ## 🔨 Contribute
 There is still a lot of work to do on this package, including :
 - Write a documentation
